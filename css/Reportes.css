@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header a:hover{
+    text-decoration: none;
+    color: black;
+}
+header a{
+    text-decoration: none !important; 
+    color: black;
+}
+header a:focus{
+    text-decoration: none !important; 
+    color: black;
+}
+button{
+    color:white !important;
+    font-weight: bold !important;	
+}
+.fechas{
+    margin-top: 50px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+label{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 574px) {
+    .tipoReporte{
+        margin-top: 0;
+        margin-left: 5% !important;
+        
+    }
+    .fechas{
+        flex-direction: column;
+    }
+}
+

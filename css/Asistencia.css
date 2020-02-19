@@ -1,0 +1,374 @@
+.barra {
+  height: 100vh;
+}
+.disabled {
+  background: grey !important;
+}
+.desaparecer {
+  display: none !important;
+}
+.buscar{
+   padding: 0;
+}
+.card-body {
+  background: rgba(156, 156, 156, 0.39) !important;
+}
+#logo span {
+  width: 50% !important;
+}
+.btn-group {
+  margin-left: 2% !important;
+}
+header a:hover{
+  text-decoration: none;
+  color: black;
+}
+header a{
+  text-decoration: none !important; 
+  color: black;
+}
+header a:focus{
+  text-decoration: none !important; 
+  color: black;
+}
+.novino {
+  padding-left: 0;
+  padding-top: 5px;
+}
+.novino a {
+  width: 50%;
+  background: #ff7c30;
+  color: white !important;
+}
+.permiso {
+  padding-left: 0;
+}
+.permiso a {
+  width: 100%;
+  background: #c94663;
+  color: white !important;
+  padding: 6px 0;	
+}
+.asistio {
+  padding-left: 0;
+  margin-left: 30%;
+}
+.asistio a:hover {
+  background: #4c8d46;
+}
+.asistio a {
+  width: 100%;
+  background: #4c8d46;
+  color: white !important;
+  padding: 5px 0;
+}
+
+.btnpeque {
+  font-size: 12px !important;
+  padding: 2px 5px;
+  margin-top: 20%;
+  max-width: 40% !important ;
+}
+.btnasis {
+  margin-left: 45px;
+}
+
+.card-header {
+  background: #c94663;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  height: 30%;
+}
+img {
+  width: 50% !important;
+  border-radius: 50% !important;
+  margin-left: 25%;
+}
+.imgModal {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 80% !important;
+  margin: 0 !important;
+}
+.fondoasis {
+  background: rgba(31, 255, 31, 0.219) !important;
+}
+
+.btn {
+  border: 1px solid #ce9aa5 !important;
+}
+.btn:hover {
+  border: 1px solid #ce9aa5;
+  background-color: #c94663;
+  background-image: url(images/bg01.png);
+}
+.card-title {
+  text-align: center;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.btn-success {
+  background: rgb(139, 139, 139);
+}
+.btn-success:hover {
+  background: rgb(139, 139, 139);
+}
+.imgBarra {
+  width: 100% !important;
+}
+.TitleAula {
+  justify-content: center;
+  text-align: center;
+  background: #f7f7f7;
+  border-radius: 5px;
+  padding: 10px 10px;
+  width: 30%;
+  font-size: 150% !important;
+  margin-left: 35%;
+  margin-bottom: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: 2px solid #c94663;
+}
+.nav-link {
+  background: #c94663;
+  color: #ffffff;
+  margin-left: 2px;
+}
+.nav-link:hover {
+  height: 110%;
+  color: #ffffff;
+  text-decoration: none;
+}
+.salida {
+  background: #c94663 !important;
+  color: #ffffff !important;
+  padding: 5px 0;
+}
+.entrada {
+  background: #468d4b !important;
+  color: #ffffff !important;
+  font-size: 18px;
+  padding: 6px 0;
+}
+.prueba1 {
+  font-size: 15px;
+}
+
+.prueba2 {
+  font-size: 16px;
+}
+.modal-header {
+  background: #cf7f23;
+  font-weight: bold;
+  font-size: 20px;
+}
+.modal-title {
+  color: #ffffff;
+  text-align: center;
+}
+
+.atraso {
+  display: inline-block;
+  float: left;
+  background: orange;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.nombre {
+  display: inline-block;
+}
+
+input[type="checkbox"] {
+  border: #c94663 !important;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+.custom-control {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 1530px) {
+  .card-title {
+    font-size: 70%;
+  }
+  .btn {
+    font-size: 70%;
+  }
+
+  .entrada {
+    padding: 8px 0;
+  }
+  .salida {
+    padding: 8px 0;
+  }
+  .btnpeque {
+    padding: 0;
+    margin-top: 50px;
+    max-width: 30% !important;
+    display: inline-block;
+    
+  }
+  .btnasis{
+    margin-left: 55px !important;
+  }
+  
+}
+@media screen and (max-width: 1000px) {
+  .card-title {
+    font-size: 70%;
+  }
+  .btn {
+    font-size: 70%;
+  }
+
+  .entrada {
+    padding: 8px 0;
+  }
+  .salida {
+    padding: 8px 0;
+  }
+  .btnpeque {
+    padding: 0;
+    margin-top: 50px;
+    width: 20px;
+    display: inline-block;
+    font-size: 10px !important;
+  }
+  .btnasis {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-title {
+    font-size: 70%;
+  }
+  .btn {
+    font-size: 70%;
+  }
+  .entrada {
+    padding: 8px 0;
+  }
+  .salida {
+    padding: 8px 0;
+  }
+  .btnpeque {
+    padding: 0;
+    margin-top: 50px;
+
+    display: inline-block;
+    font-size: 20px !important;
+  }
+  .btnasis {
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 574px) {
+  .card-title {
+    font-size: 90% !important;
+  }
+  .btn {
+    font-size: 100% !important;
+  }
+
+  .col-9 {
+    margin-left: 15% !important;
+  }
+  img {
+    width: 50% !important;
+    border-radius: 10%;
+    margin-left: 25%;
+  }
+  .alertify .ajs-footer .ajs-buttons.ajs-primary .ajs-button {
+    margin: 4px;
+    font-size: 10px !important;
+    display: inline-block;
+  }
+  .ajs-dialog {
+    margin-top: 20% !important;
+    min-width: 150px !important;
+    max-width: 80% !important;
+  }
+  .modal-dialog {
+    margin-top: 15% !important;
+  }
+  .fondomodal {
+    margin-left: 10% !important;
+  }
+  .btnpeque {
+    padding: 0 !important;
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 10px !important;
+  
+  }
+  .btnasis {
+    margin-left: 47px;
+  }
+  .permiso a {
+    padding:5px 1px;
+  }
+  .asistio a{
+    padding:5px 1px;
+  }
+  .asistio {
+    margin-left: 30%;
+    font-size: 12px;
+  }
+  .noVino {
+    font-size: 10px !important;
+    display: block !important;
+  }
+  .buscar{
+     width: 50% !important;
+     padding: 0 !important;
+  }
+  .sinAsignar{
+     font-size:12px;
+     padding:15px 0;
+  }
+  .btn-group {
+   margin-left: -15px;
+  }
+}
+
+.vino {
+  background: #4c8d46;
+  font-size: 10px !important;
+  display: block !important;
+}
+.tardo {
+  font-size: 10px !important;
+  display: block !important;
+}
+
+
+
+
+
+.permiso {
+  font-size: 13px;
+}
+
+.novino {
+  font-size: 12px;
+  margin-left:38%; 
+}
+.fotoabajo{
+  margin-left: 25%;
+}
+.ajs-ok {
+  background: #468d4b !important;
+  padding: 0;
+  width: auto !important;
+}
+.ajs-cancel {
+  padding: 0;
+  width: auto !important;
+}
+

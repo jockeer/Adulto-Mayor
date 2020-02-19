@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Asignacion-Voluntario</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="images/logouteC.png"  />
+    <link rel="stylesheet" href="css/barra.css">
+    <link rel="stylesheet" href="css/AsignacionVol.css">
+    <script src="js/modal/jquery-3.3.1.js"></script>
+    <script src="js/modal/popper.min.js"></script>
+    <script src="js/modal/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/modal/bootstrap.css">
+    <link rel="stylesheet" href="css/modal/dataTables.bootstrap4.min.css"/>
+    <link rel="stylesheet" href="css/modal/responsive.bootstrap4.min.css"/>
+    <script src="js/modal/jquery.dataTables.min.js"></script>
+    <script src="js/modal/dataTables.bootstrap4.min.js"></script>
+    
+    <script src="js/modal/dataTables.responsive.min.js"></script>
+    <script src="js/modal/responsive.bootstrap4.min.js"></script>
+    <body>
+        
+        <div id="content">
+            <div class="inner">
+                <article class="box post post-excerpt">
+                    <header>
+
+                        <h2><a href="#">Asignaci&oacuten de Voluntarios</a></h2>
+
+                    </header>
+                    <center>
+                            
+                            <div id="responsive-form" class="clearfix">
+                               
+                                    <div> 
+                                        <select name="Aula" id="Aula">
+                                        <option value="" default selected>Seleccione el Aula</option>
+                                        </select>
+                                    </div>
+                                   <br>
+                                
+                                <div class="btnBuscar">
+                                        <input type="button" value="Buscar" id="BuscarA" />
+                                </div>
+                            </div>
+                           
+                        </center>
+                        <hr>
+                       
+                    <div>
+                        
+                    <table id="example1" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>Foto</th>
+                                <th>Voluntario</th>
+                                <th>Nombre</th>
+                                <th style="display: none;">idper</th>
+                                <th>Ci</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+                <hr>
+                <div>
+                    <table id="agrupamiento" class="table table-striped table-bordered dt-responsive nowrap" style="visibility: hidden;" cellspacing="0" width="100%">
+                        <thead>
+                          <tr>
+                              <th>FotoA</th>
+                              <th>nombreA</th>
+                              <th>FotoV</th>
+                              <th>NombreV</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        	
+                        </tbody>
+                    </table>
+                </div>  
+                <center>
+                <div>
+                    <input type="button" value="Guardar" id="GuardarAg"  style="visibility: hidden;">
+                </div>
+                </center>
+                </article>
+
+                
+            </div>
+        </div>
+
+      
+
+        <div id="sidebar">
+            <!-- <img src="images/logoute.jpg" alt=""> -->
+            <h1 id="logo"><a href="#">Adulto Mayor</a></h1>
+            <nav id="nav">
+                    <ul>
+                            <li class="current"><a href="index.html">Principal</a></li>
+                            
+                            <li class="current"><a href="Asistencia.html">Asistencia</a></li>
+                            <li class="current"><a href="Reporte.html">Reporte</a></li>
+                        </ul>
+            </nav>
+
+            <ul id="copyright">
+                <li>&copy; C.I.I.D.</li>
+            </ul>
+            <div class="imgBarra">
+                    <img src="images/logoute.png" alt="">
+            </div>
+
+        </div>
+
+        
+          <!-- para el modal -->
+          <div class="modal fade" id="compromisos" tabindex="-1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Voluntario</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table id="compromiso_ejecutivo" class="table table-striped table-bordered dt-responsive nowrap" style="visibility: hidden;" cellspacing="0" width="100%">
+        
+                                <thead>
+                                  <tr>
+                                        <th>Foto</th>
+                                        <th>Voluntario</th>
+                                        <th>Nombre</th>
+                                        <th style="display: none;">idper</th>
+                                        <th>Ci</th>
+                                      
+                                  
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- aqui termina -->
+
+        <script src="js/skel.min.js"></script>
+        <script src="js/util.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/FasigVolun.js"></script>
+      
+
+
+    </body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Reporte</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/logouteC.png" />
+    <link rel="stylesheet" href="css/barra.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/Reportes.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="css/responsive.bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap.min.js"></script>
+    <script src="js/dataTables.responsive.min.js"></script>
+    <script src="js/responsive.bootstrap.min.js"></script>
+    <script src="jspdf/dist/jspdf.min.js"></script>
+    <script src="jspdf.plugin.autotable.min.js"></script>
+
+    <body>
+        <div id="content">
+            <div class="inner">
+                <article class="box post post-excerpt">
+                    <header>
+
+                        <h2><a href="#">Reporte</a></h2>
+
+                    </header>
+
+                    <center>
+                        <form class="fechas">
+                            
+                                <div class="form-group">
+                                    <label>Fecha Inicio:</label>
+                                    <input class="form-control" type="date" value="fecha" id="fecha1" required/>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Fecha Fin:</label>
+                                    <input class="form-control" type="date" value="fecha" id="fecha2" required/>
+                                </div>
+                            
+                            
+                            <div class="form-group">
+                                <label>Tipo de reporte:</label>
+                                <select class="form-control" name="ReporteS" id="ReporteS" required>
+                                    <option value="" default selected>Seleccione el tipo</option>
+                                    <option value="1">Voluntario</option>
+                                    <option value="2">Adulto</option>
+                                </select>
+                            </div>
+                        </form>
+                        <hr>
+                    </center>
+
+
+
+
+                    <center>
+                        <button onclick="generate()">Generate PDF</button>
+                        <hr>
+                        <div class="table-responsive">
+                            <table id="table" class="table table-hover" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Registro</th>
+                                        <th>Minutos de servicio</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </center>
+                </article>
+            </div>
+        </div>
+        <div id="sidebar">
+            <!-- <img src="images/logoute.jpg" alt=""> -->
+            <h1 id="logo"><a href="#">Adulto Mayor</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="current"><a href="index.html">Principal</a></li>
+
+                    <li class="current"><a href="Asistencia.html">Asistencia</a></li>
+                    <li class="current"><a href="Reporte.html">Reporte</a></li>
+                </ul>
+            </nav>
+
+            <ul id="copyright">
+                <li>&copy; C.I.I.D.</li>
+            </ul>
+            <div class="imgBarra">
+                <img src="images/logoute.png" alt="">
+            </div>
+        </div>
+        <script src="js/skel.min.js"></script>
+        <script src="js/util.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/Reporte.js"></script>
+
+    </body>
+
+</html>

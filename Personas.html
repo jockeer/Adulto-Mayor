@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="css/Asistencia.css"> -->
+    <title>Persona</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="images/logouteC.png"/>
+    <link rel="stylesheet" href="css/barra.css">
+  
+
+    <body>
+        <div id="content">
+            <div class="inner">
+                <article class="box post post-excerpt">
+                    <header>
+
+                        <h2><a href="#">Agregar Informaci&oacuten</a></h2>
+
+                    </header>
+
+                    <form method="POST" action="">
+                        <div>
+                            <div class="col-6 col-12-mobile">Nombre:<input type="text" name="nombre" id="nombre" placeholder="Nombre" required /></div>
+                            <div class="col-6 col-12-mobile">Apellido Paterno:<input type="text" name="Paterno" id="paterno" placeholder="Ap.Paterno" required/></div>
+                            <div class="col-6 col-12-mobile">Apellido Materno:<input type="text" name="Materno" id="materno" placeholder="Ap.Materno" required/></div>
+                            <div class="col-6 col-12-mobile">Ci:<input type="text" name="Ci" id="ci" placeholder="Ci" required/></div>
+                            <div class="col-6 col-12-mobile">Telefono:<input type="text" name="Telefono" id="telefono" placeholder="Telefono" required/></div>
+                            <div class="col-6 col-12-mobile">Email:<input type="email" name="email" id="email" placeholder="Email" required/></div>
+                            <div class="col-6 col-12-mobile" id="rol1">
+                                Rol:<select name="rol" id="rol" required>
+                                        <option value="" default selected>ROL</option>
+                                </select>
+                            </div>
+                            <div class="col-6 col-12-mobile" id="Tipo1">
+                                Tipo:<select name="tipo" id="tipo" required>
+                                        <option value="" default selected>Seleccione el tipo</option>
+                                        <option value="1">Voluntario</option>
+                                        <option value="2">Adulto</option>
+                                </select>
+                            </div>
+                            <br>
+                            <div class="col-6 col-12-mobile" style="display: none;" id="nacimiento" >Fecha de Nacimieto: <input type="date" name="nombre" id="nacimientoA" placeholder="FechaNacimiento"  min="1920-01-01"
+                                max="2018-01-01" step="2" value="1920-01-01"/></div>
+                            <div class="col-6 col-12-mobile" style="display: none;" id="registro" >Codigo Registro:<input type="text" name="Paterno" id="registroV" placeholder="Codigo de Registro" /></div>
+                            <div class="col-6 col-12-mobile" id="Voluntario1" style="display: none;" >
+                                Voluntario:<select name="tipo" id="Voluntario">
+                                        <option value="" default selected>Tipo De Voluntario</option>
+
+                                </select>
+                            </div>
+                            <br>
+                            
+                            <div class="col-12">
+                                <div>
+                                <span class="btn btn-default btn-file">
+                                   
+                                    Subir imagen<input type="file"  id="inp" onclick="readFile()">
+                                   
+                                </span>
+                                </div>
+                            </div>
+                            <div>
+                                <br/>
+                                <br/>
+                                <img id="img" height="100">
+                                <br/>
+                            </div>
+                        
+                        </div>
+                        <hr>
+                        <br>
+                        <div class="col-12">
+                            <input type="submit" value="Guardar" id="GuardarP" />
+                        </div>
+
+                    </form>
+
+                </article>
+            </div>
+        </div>
+        <div id="sidebar">
+            <!-- <img src="images/logoute.jpg" alt=""> -->
+            <h1 id="logo"><a href="#">Adulto Mayor</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="current"><a href="index.html">Principal</a></li>
+                    <li class="current"><a href="Asistencia.html">Asistencia</a></li>
+                    <li class="current"><a href="Reporte.html">Reporte</a></li>
+                </ul>
+            </nav>
+
+            <ul id="copyright">
+                <li>&copy; C.I.I.D.</li>
+            </ul>
+            <div class="imgBarra">
+                    <img src="images/logoute.png" alt="">
+            </div>
+
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/util.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/Fpersonas.js"></script>
+
+
+
+    </body>
+
+</html>

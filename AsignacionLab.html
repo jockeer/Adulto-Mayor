@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>AsignacionLab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/logouteC.png"  />
+    <link rel="stylesheet" href="css/barra.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/AsignacionLab.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="css/responsive.bootstrap.min.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="css/Asistencia.css"> -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap.min.js"></script>
+    <script src="js/dataTables.responsive.min.js"></script>
+    <script src="js/responsive.bootstrap.min.js"></script>
+
+    <body>
+        <div id="content">
+            <div class="inner">
+                <article class="box post post-excerpt">
+                    <header>
+
+                        <h2><a href="#">Asignación de Laboratorios</a></h2>
+
+                    </header>
+                    <center>
+                      
+                        <div id="responsive-form" class="clearfix">
+                            <div class="form-row">
+                                <div id="nombre" class="column-half"> <select name="tipo" id="tipo" required>
+                                    <option value="" default selected>Seleccione el tipo</option>
+                                    </select>
+                                </div>
+                                <div id="ApellidoP" class="column-half">
+                                    <input type="date" value="fecha" id="fecha" required/>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div>
+                            <input type="button" value="Buscar" id="Buscar" />
+                        </div>
+                    </center>
+                    <hr>
+                    
+
+                    <div>
+
+                        <table id="example" class="table table-striped table-bordered dt-responsive nowrap"  >
+                            <thead>
+                                <tr>
+                                    <th>foto</th>
+                                    <th>Lab</th>
+                                    <th>Nombre</th>
+                                    <th style="display: none;">id </th>
+                                    <th>Ci</th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <center>
+                        <!-- <div class="producto" id="img"></div>
+                        <br/> -->
+                        <div id="responsive-form" class="clearfix">
+                            <div class="form-row">
+                                <div class="column-half" id="nombre">
+                                    Desde: Hoy
+                                </div>
+                                <div class="column-half" id="ApellidoP">
+                                    Hasta : <br><input type="date" value="fecha1" id="fecha1" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <input type="button" value="Guardar" id="Guardar" />
+                            <!-- <input type="button" value="prueba" id="prueba" /> -->
+                        </div>
+                    </center>
+
+            </div>
+
+            </article>
+        </div>
+        </div>
+        <div id="sidebar">
+                <!-- <img src="images/logoute.jpg" alt=""> -->
+            <h1 id="logo"><a href="#">Adulto Mayor</a></h1>
+            <nav id="nav">
+                    <ul>
+                            <li class="current"><a href="index.html">Principal</a></li>
+                            
+                            <li class="current"><a href="Asistencia.html">Asistencia</a></li>
+                            <li class="current"><a href="Reporte.html">Reporte</a></li>
+                        </ul>
+            </nav>
+
+            <ul id="copyright">
+                <li>&copy; C.I.I.D.</li>
+            </ul>
+            <div class="imgBarra">
+                    <img src="images/logoute.png" alt="">
+            </div>
+        </div>
+        <!-- <script src="js/jquery.min.js"></script> -->
+        <script src="js/skel.min.js"></script>
+        <script src="js/util.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/FunAsignacion.js"></script>
+
+
+
+    </body>
+
+</html>

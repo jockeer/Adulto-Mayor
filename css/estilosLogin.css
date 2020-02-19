@@ -1,0 +1,117 @@
+
+body{
+    background: #a8a8a8 url('../img/bg11.png') no-repeat;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: 50% 50%;
+    font-family: 'Arima Madurai', cursive;
+    color: black;
+}
+span img{
+    width: 40px; 
+}
+.card{
+    background: #ffffff url('../img/bg2.png') no-repeat;
+}
+.input-group{
+    margin-left: 25% !important;
+}
+.form-control:focus{
+    border: 2px solid;
+    border-color: #30ff1d !important; 
+    color: rgb(78, 78, 78);
+    font-size: 110% !important;
+}
+.container > .row{
+    position: relative;
+    position: 50% 50%;
+}
+.imgLOf{
+    width: 90%;
+    margin-top: 9%;
+}
+.card{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 22%;  
+    width:50%;
+}
+h2{
+    margin-top: 3%;
+    margin-left: 60%;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+}
+
+.imgEs{
+    margin-left:-15px !important; 
+}
+.superior{
+    background: #d4d4d4;
+    border:  2px solid rgba(0, 0, 0, 0.164);
+    padding: 0 0 !important;
+    margin: 0 !important;
+}
+.btn-primary{
+    background: rgba(248, 2, 2, 0.726);
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 26.5%;
+}
+.btn-primary:hover{
+    background: rgb(184, 184, 184);
+    border: 1px solid black;
+}
+.imagen{
+    background:none;
+    text-align: center;
+    padding: 6px;
+}
+label{
+    margin-left: 40%;
+}
+
+input{
+    margin: 0;
+    width: 50%!important;
+    margin-left: 0;
+}
+.card-body{
+    background: url('../css/images/bg01.png');
+}
+.btn-primary:hover{
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 574px) {
+	.card{
+        margin-left: 10%;
+        min-width: 80%;
+        margin-top: 30%;
+    }
+    .input-group{
+        margin-left: 15% !important;
+        min-width: 70%;
+    }
+    input{
+        font-size: 8px !important;
+    }
+    .form-control:focus{
+        border: 2px solid;
+        color: rgb(78, 78, 78);
+        font-size: 10px !important;
+    }
+    span img{
+        width: 20px; 
+    }
+    .imgLog{
+        padding: 0 5px!important;
+    }
+    .btn-primary{
+        width: 50%;
+        font-size: 10px;
+    }
+    
+}

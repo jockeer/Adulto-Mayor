@@ -1,0 +1,240 @@
+.ParteCentral {
+  padding-top: 0 !important;
+}
+.jumbotron{
+  background: url("../images/CampusFondoC.png") no-repeat !important;
+  background-position: center;  
+  background-size: 100% 100%!important;
+  
+}
+.card{
+  height: 100%;
+}
+
+.imgprinc{
+  text-align: center;
+  background: white;
+  border: 1px solid grey;
+  padding:0;
+}
+.imgprinc img{
+  width: 90%;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  
+}
+.imgprinc2{
+  text-align: center;
+  background: white;
+  border: 1px solid grey;
+  padding:0;
+}
+.imgprinc2 img{
+  width: 90%;
+  padding-top: 20%;
+  padding-bottom: 10%;
+}
+.imgprinc3{
+  text-align: center;
+  background: white;
+  border: 1px solid grey;
+  padding:0;
+}
+.imgprinc3 img{
+  width: 90%;
+  padding-top: 20%;
+  padding-bottom: 10%;
+}
+.imgprinc4{
+  text-align: center;
+  background: white;
+  border: 1px solid grey;
+  padding:0;
+}
+.imgprinc4 img{
+  width: 90%;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  
+}
+h3{
+  color: white!important;
+}
+.card-footer{
+  text-align: center;
+  background: #c94663;
+  background-image: url("images/bg01.png");
+  max-height: 25%;
+  padding: 5% !important;
+  border:1px solid #ff3030;
+}
+.container-fluid {
+  margin-left: 0;
+  text-align: center;
+}
+.centro{
+  padding: 15px;
+}
+.centro a{
+  text-decoration: none;
+}
+.centro a:hover{
+  text-decoration: none;
+}
+.logo {
+  background: rgb(88, 87, 87);
+}
+p {
+  font-size: 18px;
+}
+.card-header {
+  background: #69696983;
+}
+.header1 {
+  border-top: 2px solid black;
+}
+.header2 {
+  border-bottom: 2px solid black;
+}
+
+.btn-link {
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+  width: 15%;
+}
+.btn-link:hover {
+  background: maroon;
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-link:focus {
+  text-decoration: none;
+}
+h2 {
+  color: white;
+}
+strong {
+  color: maroon;
+  font-weight: bold;
+  margin-left: 15%;
+  font-size: 30px;
+  background: white;
+}
+
+@media screen and (max-width: 1070px){
+  h3{
+    font-size:12px;
+  }
+}
+@media screen and (max-width: 900px) {
+  strong {
+    margin-left: 15%;
+  }
+  .titulo {
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .ParteCentral {
+    
+    background-position: center;
+    background-size: cover;
+    height: 100% !important;
+  }
+  .imgprinc4{
+    
+   
+    
+  }
+  .titulo img {
+    margin-top: 5%;
+    width: inherit;
+    max-width: 50%;
+    margin-left: 20% ;
+  }
+  h3{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 790px) {
+  strong {
+    margin-left: 5%;
+    font-size: 20px;
+  }
+  .titulo img {
+    margin-top: 5%;
+    width: inherit;
+    max-width: 50%;
+    margin-left: 25%;
+  }
+  p {
+    font-size: 15px;
+  }
+  .ParteCentral {
+    
+    background-position: center;
+    background-size: cover;
+    height: 100% !important;
+  }
+}
+@media screen and (max-width: 574px) {
+  strong {
+    margin-left: 2%;
+    font-size: 15px;
+  }
+  .btn-link {
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .display-4 {
+    font-size: 50px;
+  }
+  .btn-link {
+    color: white !important;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+  }
+  .lead {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .ParteCentral {
+    
+    background-position: center;
+    background-size: cover;
+    height: 100% !important;
+  }
+  .titulo img {
+    margin-top: 5%;
+    width: inherit;
+    max-width: 100%;
+    margin-left: 0 ;
+  }
+  .container-fluid img{
+    width: 80%;
+  }
+  h3{
+    font-size: 10px;
+  }
+  .imgprinc img{
+    width: 100%;
+  }
+  .imgprinc2 img{
+    width: 100%;
+  }
+  .imgprinc3 img{
+    width: 100%;
+  }
+  .imgprinc4 {
+    width: 100%;
+
+  }
+  
+}

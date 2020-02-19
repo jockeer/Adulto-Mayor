@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header a:hover{
+    text-decoration: none;
+    color: black;
+}
+header a{
+    text-decoration: none !important; 
+    color: black;
+}
+header a:focus{
+    text-decoration: none !important; 
+    color: black;
+}
+td .btn{
+    padding:0;
+}
+
+@media screen and (max-width: 574px) {
+  .modal-content{
+     margin-top: 14%;
+  }
+  .close{
+     width: 15%;
+  }
+  .btnBuscar{
+    width:50%;
+  }
+  .btnBuscar input{
+    padding:0;
+  }
+}
